@@ -54,7 +54,7 @@ drwxr-xr-x 47 foo bar       4096 Jul 22 11:47 ../
 In this particular example, we can observe that 2 memory region files were
 created. That is explained by the size of the guest RAM, which is 4GiB in this
 case. Because it exceeds 3GiB (which is where we can find a ~1GiB memory hole),
-Cloud-Hypervisor needs 2 distincts memory regions to be created. Each memory
+Cloud-Hypervisor needs 2 distinct memory regions to be created. Each memory
 region's content is stored through a dedicated file, which explains why we end
 up with 2 different files, the first one containing the guest RAM range 0-3GiB
 and the second one containing the guest RAM range 3-4GiB.
