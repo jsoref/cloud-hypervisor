@@ -318,7 +318,7 @@ Highlights for `cloud-hypervisor` version 0.7.0 include:
 Further to our effort to support modifying a running guest we now support
 hotplug and unplug of the following virtio backed devices: block, network,
 pmem, virtio-fs and vsock. This functionality is available on the (default) PCI
-based tranport and is exposed through the HTTP API. The `ch-remote` utility
+based transport and is exposed through the HTTP API. The `ch-remote` utility
 provides a CLI for adding or removing these device types after the VM has
 booted. User can use the `id` parameter on the devices to choose names for
 devices to ease their removal.
