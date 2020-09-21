@@ -32,7 +32,7 @@ pub enum Error {
     ParseFsSockMissing,
     /// Cannot have dax=off along with cache_size parameter.
     InvalidCacheSizeWithDaxOff,
-    /// Missing persistant memory file parameter.
+    /// Missing persistent memory file parameter.
     ParsePmemFileMissing,
     /// Missing vsock socket path parameter.
     ParseVsockSockMissing,
