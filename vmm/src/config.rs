@@ -56,7 +56,7 @@ pub enum Error {
     ParseRNG(OptionParserError),
     /// Error parsing filesystem parameters
     ParseFileSystem(OptionParserError),
-    /// Error parsing persistent memorry parameters
+    /// Error parsing persistent memory parameters
     ParsePersistentMemory(OptionParserError),
     /// Failed parsing console
     ParseConsole(OptionParserError),
