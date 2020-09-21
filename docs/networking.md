@@ -14,7 +14,7 @@ Note:
 
 - Currently, it does not support to use ethtool to change the combined queue numbers in guest.
 - Multiple queue is enabled for vhost-user-net backend in cloud-hypervisor, however, multiple thread is not added to handle mq, thus, the performance for vhost-user-net backend is not supposed to be improved. The multiple thread will be added for backend later.
-- Performance test for vhost-user-net will be covered once vhost-user-net backend has mulitple thread supported.
+- Performance test for vhost-user-net will be covered once vhost-user-net backend has multiple thread supported.
 - Performance test for virtio-net is done by comparing 2 queue pairs with 1 queue pairs, that to run 2 iperf3 sessions in the same test environments, throughput is improved about 37%.
 
 ## Start cloud-hypervisor with net devices
