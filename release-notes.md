@@ -434,7 +434,7 @@ When choosing to offload the paravirtualized block and networking I/O to an
 external process (through the `vhost-user` protocol), Cloud Hypervisor now
 automatically spawns its default `vhost-user-blk` and `vhost-user-net` backends
 into their own, separate processes.
-This provides a seamless parvirtualized I/O user experience for those who want
+This provides a seamless paravirtualized I/O user experience for those who want
 to run their guest I/O into separate executions contexts.
 
 ### Command Line Interface
