@@ -626,7 +626,7 @@ impl VsockMuxer {
         self.local_port_set.remove(&port);
     }
 
-    /// Handle a new connection request comming from our peer (the guest vsock driver).
+    /// Handle a new connection request coming from our peer (the guest vsock driver).
     ///
     /// This will attempt to connect to a host-side Unix socket, expected to be listening at
     /// the file system path corresponing to the destination port. If successful, a new
