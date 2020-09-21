@@ -235,7 +235,7 @@ where
                 }
                 Err(err) if err.kind() == ErrorKind::WouldBlock => {
                     // This shouldn't actually happen (receiving EWOULDBLOCK after EPOLLIN), but
-                    // apparently it does, so we need to handle it greacefully.
+                    // apparently it does, so we need to handle it gracefully.
                     warn!(
                         "vsock: unexpected EWOULDBLOCK while reading from backing stream: \
                          lp={}, pp={}, err={:?}",
