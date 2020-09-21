@@ -376,7 +376,7 @@ impl VsockMuxer {
                 let key_copy = *key;
                 let evset_copy = *evset;
                 // The handling of this event will most probably mutate the state of the
-                // receiving conection. We'll need to check for new pending RX, event set
+                // receiving connection. We'll need to check for new pending RX, event set
                 // mutation, and all that, so we're wrapping the event delivery inside those
                 // checks.
                 self.apply_conn_mutation(key_copy, |conn| {
