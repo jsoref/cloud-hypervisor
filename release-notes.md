@@ -580,7 +580,7 @@ default Cloud Hypervisor I/O architecture.
 
 ### Guest pause and resume
 
-As an initial requiremnt for enabling live migration, we added support for
+As an initial requirement for enabling live migration, we added support for
 pausing and resuming any VMM components. As an intermediate step towards live
 migration, the upcoming guest snapshotting feature will be based on the pause
 and resume capabilities.
