@@ -629,7 +629,7 @@ impl VsockMuxer {
     /// Handle a new connection request coming from our peer (the guest vsock driver).
     ///
     /// This will attempt to connect to a host-side Unix socket, expected to be listening at
-    /// the file system path corresponing to the destination port. If successful, a new
+    /// the file system path corresponding to the destination port. If successful, a new
     /// connection object will be created and added to the connection pool. On failure, a new
     /// RST packet will be scheduled for delivery to the guest.
     ///
