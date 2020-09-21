@@ -664,7 +664,7 @@ impl EpollHelperHandler for MemEpollHandler {
                         },
                     };
                     if let Err(e) = self.resize.send(r) {
-                        error!("Sending \"resize\" reponse: {:?}", e);
+                        error!("Sending \"resize\" response: {:?}", e);
                         return true;
                     }
                     if signal_error {

@@ -905,7 +905,7 @@ mod tests {
         let mut ctx = CsmTestContext::new(ConnState::PeerInit);
         assert!(ctx.conn.has_pending_rx());
         ctx.recv();
-        // For peer-initiated requests, our connection should always yield a vsock reponse packet,
+        // For peer-initiated requests, our connection should always yield a vsock response packet,
         // in order to establish the connection.
         assert_eq!(ctx.pkt.op(), uapi::VSOCK_OP_RESPONSE);
         assert_eq!(ctx.pkt.src_cid(), LOCAL_CID);

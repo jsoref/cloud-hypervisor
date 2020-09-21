@@ -1232,7 +1232,7 @@ mod tests {
             streams.push(listener.accept());
         }
 
-        // The muxer RX queue should now be full (with connection reponses), but still
+        // The muxer RX queue should now be full (with connection responses), but still
         // synchronized.
         assert!(ctx.muxer.rxq.is_synced());
 
