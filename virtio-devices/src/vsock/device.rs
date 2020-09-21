@@ -19,7 +19,7 @@ use crate::{
 };
 use anyhow::anyhow;
 /// This is the `VirtioDevice` implementation for our vsock device. It handles the virtio-level
-/// device logic: feature negociation, device configuration, and device activation.
+/// device logic: feature negotiation, device configuration, and device activation.
 /// The run-time device logic (i.e. event-driven data handling) is implemented by
 /// `super::epoll_handler::EpollHandler`.
 ///
