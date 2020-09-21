@@ -99,7 +99,7 @@ pub fn create_fdt<T: DeviceInfoForFDT + Clone + Debug, S: ::std::hash::BuildHash
     initrd: &Option<InitramfsConfig>,
     pci_space_address: &Option<(u64, u64)>,
 ) -> Result<Vec<u8>> {
-    // Alocate stuff necessary for the holding the blob.
+    // Allocate stuff necessary for the holding the blob.
     let mut fdt = vec![0; FDT_MAX_SIZE];
 
     allocate_fdt(&mut fdt)?;
