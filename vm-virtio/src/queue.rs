@@ -86,7 +86,7 @@ impl<'a> Iterator for DescIter<'a> {
     }
 }
 
-/// A virtio descriptor constraints with C representive.
+/// A virtio descriptor constraints with C representative.
 #[repr(C)]
 #[derive(Default, Clone, Copy)]
 pub struct Descriptor {
