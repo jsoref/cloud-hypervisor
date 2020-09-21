@@ -120,7 +120,7 @@ pub struct VsockMuxer {
 impl VsockChannel for VsockMuxer {
     /// Deliver a vsock packet to the guest vsock driver.
     ///
-    /// Retuns:
+    /// Returns:
     /// - `Ok(())`: `pkt` has been successfully filled in; or
     /// - `Err(VsockError::NoData)`: there was no available data with which to fill in the
     ///   packet.
