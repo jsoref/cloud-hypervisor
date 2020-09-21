@@ -1165,7 +1165,7 @@ mod tests {
                 .contains(epoll::Events::EPOLLOUT));
             assert_eq!(ctx.conn.tx_buf.len(), data.len());
 
-            // Unlock the write stream and notify the connection it can now write its bufferred
+            // Unlock the write stream and notify the connection it can now write its buffered
             // data.
             ctx.set_stream(TestStream::new());
             ctx.conn.notify(epoll::Events::EPOLLOUT);
