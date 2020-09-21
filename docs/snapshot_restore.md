@@ -63,7 +63,7 @@ and the second one containing the guest RAM range 3-4GiB.
 and state. The configuration bits are used to create a similar virtual machine
 with the correct amount of CPUs, RAM, and other expected devices. The state
 bits are used to restore each component in the state it was left before the
-snapshot occured.
+snapshot occurred.
 
 ## Restore a Cloud-Hypervisor VM
 

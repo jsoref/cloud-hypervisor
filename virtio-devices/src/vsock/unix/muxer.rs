@@ -280,13 +280,13 @@ impl VsockEpollListener for VsockMuxer {
     /// Get the epoll events to be polled upstream.
     ///
     /// Since the polled FD is a nested epoll FD, we're only interested in EPOLLIN events (i.e.
-    /// some event occured on one of the FDs registered under our epoll FD).
+    /// some event occurred on one of the FDs registered under our epoll FD).
     ///
     fn get_polled_evset(&self) -> epoll::Events {
         epoll::Events::EPOLLIN
     }
 
-    /// Notify the muxer about a pending event having occured under its nested epoll FD.
+    /// Notify the muxer about a pending event having occurred under its nested epoll FD.
     ///
     fn notify(&mut self, _: epoll::Events) {
         debug!("vsock: muxer received kick");
