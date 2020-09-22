@@ -1,0 +1,4 @@
+^\.github/actions/spelling/
+^resources/linux-config-
+ignore$
+(?:^|/)Cargo\.

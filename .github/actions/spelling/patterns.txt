@@ -1,0 +1,6 @@
+# hex digits including css/html color classes:
+(?:[\\0][xX]|[uU]\+|#)[0-9a-fA-FgGrR_.]{2,}(?:[uU]\d*)?[lL]{0,2}\b
+# credits
+^\* .* <[^>]*@[^>]*>$
+# todo
+\bTODO\(\S+\)
