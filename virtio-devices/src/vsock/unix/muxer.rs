@@ -608,7 +608,7 @@ impl VsockMuxer {
     ///
     fn allocate_local_port(&mut self) -> u32 {
         // TODO: this doesn't seem very space-efficient.
-        // Mybe rewrite this to limit port range and use a bitmap?
+        // Maybe rewrite this to limit port range and use a bitmap?
         //
 
         loop {
