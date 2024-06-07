@@ -254,7 +254,7 @@ impl Emulator {
 
         let mut output = [0u8; 16];
 
-        // Every Control Cmd gets atleast a result code in response. Read it
+        // Every Control Cmd gets at least a result code in response. Read it
         let read_size = self.control_socket.read(&mut output).map_err(|e| {
             Error::RunControlCmd(anyhow!(
                 "Failed while reading response for Control Cmd: {:02X?}. Error: {:?}",
