@@ -9340,7 +9340,7 @@ mod live_migration {
         let dest_output = dest_child.wait_with_output().unwrap();
         handle_child_output(r, &dest_output);
 
-        // Check the destination VM has the expected 'concole_text' from its output
+        // Check the destination VM has the expected 'console_text' from its output
         let r = std::panic::catch_unwind(|| {
             assert!(String::from_utf8_lossy(&dest_output.stdout).contains(&console_text));
         });
@@ -9529,7 +9529,7 @@ mod live_migration {
         let dest_output = dest_child.wait_with_output().unwrap();
         handle_child_output(r, &dest_output);
 
-        // Check the destination VM has the expected 'concole_text' from its output
+        // Check the destination VM has the expected 'console_text' from its output
         let r = std::panic::catch_unwind(|| {
             assert!(String::from_utf8_lossy(&dest_output.stdout).contains(&console_text));
         });
@@ -9776,7 +9776,7 @@ mod live_migration {
         let dest_output = dest_child.wait_with_output().unwrap();
         handle_child_output(r, &dest_output);
 
-        // Check the destination VM has the expected 'concole_text' from its output
+        // Check the destination VM has the expected 'console_text' from its output
         let r = std::panic::catch_unwind(|| {
             assert!(String::from_utf8_lossy(&dest_output.stdout).contains(&console_text));
         });
@@ -9975,7 +9975,7 @@ mod live_migration {
         let dest_output = dest_child.wait_with_output().unwrap();
         handle_child_output(r, &dest_output);
 
-        // Check the destination VM has the expected 'concole_text' from its output
+        // Check the destination VM has the expected 'console_text' from its output
         let r = std::panic::catch_unwind(|| {
             assert!(String::from_utf8_lossy(&dest_output.stdout).contains(&console_text));
         });
