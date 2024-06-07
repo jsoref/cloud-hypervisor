@@ -466,7 +466,7 @@ List of virtual CPUs attached to the guest NUMA node identified by the
 `guest_numa_id` option. This allows for describing a list of CPUs which
 must be seen by the guest as belonging to the NUMA node `guest_numa_id`.
 
-One can use this option for a fine grained description of the NUMA topology
+One can use this option for a fine-grained description of the NUMA topology
 regarding the CPUs associated with it, which might help the guest run more
 efficiently.
 

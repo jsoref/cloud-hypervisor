@@ -2325,7 +2325,7 @@ Some `virtio-block` device drivers may generate requests with multiple descripto
 
 ### Memory Zones
 
-Support has been added for fine grained control of memory allocation for the guest. This includes controlling the backing of sections of guest memory, assigning to specific host NUMA nodes and assigning memory and vCPUs to specific memory nodes inside the guest. Full details of this can be found in the [memory documentation](docs/memory.md).
+Support has been added for fine-grained control of memory allocation for the guest. This includes controlling the backing of sections of guest memory, assigning to specific host NUMA nodes and assigning memory and vCPUs to specific memory nodes inside the guest. Full details of this can be found in the [memory documentation](docs/memory.md).
 
 ### `Seccomp` Sandbox Improvements
 
