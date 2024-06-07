@@ -9258,7 +9258,7 @@ mod live_migration {
         let r = std::panic::catch_unwind(|| {
             guest.wait_vm_boot(None).unwrap();
 
-            // Make sure the source VM is functaionl
+            // Make sure the source VM is functional
             // Check the number of vCPUs
             assert_eq!(guest.get_cpu_count().unwrap_or_default(), boot_vcpus);
 
@@ -9326,7 +9326,7 @@ mod live_migration {
             );
         };
 
-        // Post live-migration check to make sure the destination VM is funcational
+        // Post live-migration check to make sure the destination VM is functional
         let r = std::panic::catch_unwind(|| {
             // Perform same checks to validate VM has been properly migrated
             assert_eq!(guest.get_cpu_count().unwrap_or_default(), boot_vcpus);
@@ -9422,7 +9422,7 @@ mod live_migration {
         let r = std::panic::catch_unwind(|| {
             guest.wait_vm_boot(None).unwrap();
 
-            // Make sure the source VM is functaionl
+            // Make sure the source VM is functional
             // Check the number of vCPUs
             assert_eq!(guest.get_cpu_count().unwrap_or_default(), boot_vcpus);
 
@@ -9500,7 +9500,7 @@ mod live_migration {
             );
         };
 
-        // Post live-migration check to make sure the destination VM is funcational
+        // Post live-migration check to make sure the destination VM is functional
         let r = std::panic::catch_unwind(|| {
             // Perform same checks to validate VM has been properly migrated
             assert_eq!(guest.get_cpu_count().unwrap_or_default(), boot_vcpus);
@@ -9623,7 +9623,7 @@ mod live_migration {
         let r = std::panic::catch_unwind(|| {
             guest.wait_vm_boot(None).unwrap();
 
-            // Make sure the source VM is functaionl
+            // Make sure the source VM is functional
             // Check the number of vCPUs
             assert_eq!(guest.get_cpu_count().unwrap_or_default(), boot_vcpus);
 
@@ -9718,7 +9718,7 @@ mod live_migration {
             );
         };
 
-        // Post live-migration check to make sure the destination VM is funcational
+        // Post live-migration check to make sure the destination VM is functional
         let r = std::panic::catch_unwind(|| {
             // Perform same checks to validate VM has been properly migrated
             assert_eq!(guest.get_cpu_count().unwrap_or_default(), boot_vcpus);
@@ -9849,7 +9849,7 @@ mod live_migration {
         let r = std::panic::catch_unwind(|| {
             guest.wait_vm_boot(None).unwrap();
 
-            // Make sure the source VM is functaionl
+            // Make sure the source VM is functional
             // Check the number of vCPUs
             assert_eq!(guest.get_cpu_count().unwrap_or_default(), boot_vcpus);
             // Check the guest RAM
@@ -9934,7 +9934,7 @@ mod live_migration {
             );
         };
 
-        // Post live-migration check to make sure the destination VM is funcational
+        // Post live-migration check to make sure the destination VM is functional
         let r = std::panic::catch_unwind(|| {
             // Perform same checks to validate VM has been properly migrated
             assert_eq!(guest.get_cpu_count().unwrap_or_default(), boot_vcpus);
@@ -10044,7 +10044,7 @@ mod live_migration {
             );
         };
 
-        // Post live-migration check to make sure the destination VM is funcational
+        // Post live-migration check to make sure the destination VM is functional
         let r = std::panic::catch_unwind(|| {
             // Perform same checks to validate VM has been properly migrated
             // Spawn a new netcat listener in the OVS VM
