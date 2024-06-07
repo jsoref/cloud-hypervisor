@@ -199,7 +199,7 @@ fn parse_boot_time_output(output: &[u8]) -> Result<f64, Error> {
             );
             assert!(
                 t[7].eq("seconds"),
-                "Expecting 'seconds' as the the last word of the 'Debug I/O port' output"
+                "Expecting 'seconds' as the last word of the 'Debug I/O port' output"
             );
 
             t[6].parse::<f64>().unwrap()
@@ -226,7 +226,7 @@ fn parse_boot_time_output(output: &[u8]) -> Result<f64, Error> {
             );
             assert!(
                 t[7].eq("seconds"),
-                "Expecting 'seconds' as the the last word of the 'Debug I/O port' output"
+                "Expecting 'seconds' as the last word of the 'Debug I/O port' output"
             );
 
             t[6].parse::<f64>().unwrap()

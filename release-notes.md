@@ -1272,7 +1272,7 @@ plan to use alternatives.
 The following functionality has been removed:
 
 * The unused `poll_queue` parameter has been removed from `--disk` and
-  equivalent. This was residual from the the removal of the `vhost-user-block`
+  equivalent. This was residual from the removal of the `vhost-user-block`
   spawning feature (#4402.)
 
 ### Contributors
