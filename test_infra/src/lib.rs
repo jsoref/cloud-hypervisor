@@ -1622,7 +1622,7 @@ pub fn measure_virtio_net_throughput(
         }
 
         if !failed {
-            // Safe to unwrap as we know the child has terminated succesffully
+            // Safe to unwrap as we know the child has terminated successfully
             let output = c.wait_with_output().unwrap();
             results.push(parse_iperf3_output(&output.stdout, receive, bandwidth)?);
         } else {
