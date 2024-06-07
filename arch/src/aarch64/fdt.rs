@@ -571,7 +571,7 @@ fn create_memory_node(
 
         if ram_regions.len() > 2 {
             panic!(
-                "There should be up to two non-continuous regions, devidided by the
+                "There should be up to two non-continuous regions, divided by the
                     gap at the end of 32bit address space."
             );
         }
