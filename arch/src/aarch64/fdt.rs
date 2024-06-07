@@ -896,7 +896,7 @@ fn create_pci_nodes(
     for pci_device_info_elem in pci_device_info.iter() {
         // EDK2 requires the PCIe high space above 4G address.
         // The actual space in CLH follows the RAM. If the RAM space is small, the PCIe high space
-        // could fall bellow 4G.
+        // could fall below 4G.
         // Here we cut off PCI device space below 8G in FDT to workaround the EDK2 check.
         // But the address written in ACPI is not impacted.
         let (pci_device_base_64bit, pci_device_size_64bit) =
