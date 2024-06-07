@@ -264,7 +264,7 @@ impl DiskConfig for UbuntuDiskConfig {
         fs::File::open(source_file_dir.join("user-data"))
             .unwrap()
             .read_to_string(&mut user_data_string)
-            .expect("Expected reading user-data file in to succeed");
+            .expect("Expected reading user-data file to succeed");
         user_data_string = user_data_string.replace(
             "@DEFAULT_TCP_LISTENER_MESSAGE",
             DEFAULT_TCP_LISTENER_MESSAGE,
@@ -283,7 +283,7 @@ impl DiskConfig for UbuntuDiskConfig {
         fs::File::open(source_file_dir.join("network-config"))
             .unwrap()
             .read_to_string(&mut network_config_string)
-            .expect("Expected reading network-config file in to succeed");
+            .expect("Expected reading network-config file to succeed");
 
         network_config_string = network_config_string.replace("192.168.2.1", &network.host_ip);
         network_config_string = network_config_string.replace("192.168.2.2", &network.guest_ip);
