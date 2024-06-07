@@ -1081,7 +1081,7 @@ releases of the LTS.
 
 ### Virtualised TPM Support
 
-Support for adding an emulated CRB TPM has been added. This has it's own [TPM
+Support for adding an emulated CRB TPM has been added. This has its own [TPM
 documentation](docs/tpm.md).
 
 ### Transparent Huge Page Support
@@ -2191,7 +2191,7 @@ removed.
 ### Migration of `vhost-user-fs` backend
 
 The `vhost-user-fs` backend is no longer included in Cloud Hypervisor and it is
-instead hosted in [it's own
+instead hosted in [its own
 repository](https://gitlab.com/virtio-fs/virtiofsd-rs)
 
 ### Enhanced "info" API
