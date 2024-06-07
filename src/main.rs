@@ -797,7 +797,7 @@ fn start_vmm(cmd_arguments: ArgMatches) -> Result<Option<String>, Error> {
 // This is a best-effort solution to the latency induced by the RCU
 // synchronization that happens in the kernel whenever the file descriptor table
 // fills up.
-// The table has initially 64 entries on amd64 and everytime it fills up, a new
+// The table has initially 64 entries on amd64 and every time it fills up, a new
 // table is created, double the size of the current one, and the entries are
 // copied to the new table. The filesystem code that does this uses
 // synchronize_rcu() to ensure all pre-existing RCU read-side critical sections

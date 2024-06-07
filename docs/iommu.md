@@ -39,7 +39,7 @@ Another reason for having a virtual IOMMU is to allow passing physical devices
 from the host through multiple layers of virtualization. Let's take as example
 a system with a physical IOMMU running a VM with a virtual IOMMU. The
 implementation of the virtual IOMMU is responsible for updating the physical
-DMA Remapping table (DMAR) everytime the DMA mapping changes. This must happen
+DMA Remapping table (DMAR) every time the DMA mapping changes. This must happen
 through the VFIO framework on the host as this is the only userspace interface
 to interact with a physical IOMMU.
 
