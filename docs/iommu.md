@@ -124,7 +124,7 @@ On AArch64 architecture, the virtual IOMMU can still be used even if ACPI is not
 enabled. But the effect is different with what the aforementioned test showed.
 
 When ACPI is disabled, virtual IOMMU is supported through Flattened Device Tree
-(FDT). In this case, the guest kernel can not tell which device should be
+(FDT). In this case, the guest kernel cannot tell which device should be
 IOMMU-attached and which should not. No matter how many devices you attached to
 the virtual IOMMU by setting `iommu=on` option, all the devices on the PCI bus
 will be attached to the virtual IOMMU (except the IOMMU itself). Each of the

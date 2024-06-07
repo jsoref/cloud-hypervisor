@@ -34,7 +34,7 @@ impl From<InfraError> for Error {
 const BLK_IO_TEST_IMG: &str = "/var/tmp/ch-blk-io-test.img";
 
 pub fn init_tests() {
-    // The test image can not be created on tmpfs (e.g. /tmp) filesystem,
+    // The test image cannot be created on tmpfs (e.g. /tmp) filesystem,
     // as tmpfs does not support O_DIRECT
     assert!(exec_host_command_output(&format!(
         "dd if=/dev/zero of={BLK_IO_TEST_IMG} bs=1M count=4096"

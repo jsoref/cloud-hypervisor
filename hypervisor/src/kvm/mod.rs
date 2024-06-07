@@ -535,9 +535,9 @@ impl vm::Vm for KvmVm {
 
                 if self.check_extension(crate::kvm::Cap::MsiDevid) {
                     // On AArch64, there is limitation on the range of the 'devid',
-                    // it can not be greater than 65536 (the max of u16).
+                    // it cannot be greater than 65536 (the max of u16).
                     //
-                    // BDF can not be used directly, because 'segment' is in high
+                    // BDF cannot be used directly, because 'segment' is in high
                     // 16 bits. The layout of the u32 BDF is:
                     // |---- 16 bits ----|-- 8 bits --|-- 5 bits --|-- 3 bits --|
                     // |      segment    |     bus    |   device   |  function  |
