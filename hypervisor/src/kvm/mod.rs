@@ -1505,7 +1505,7 @@ impl cpu::Vcpu for KvmVcpu {
 
     #[cfg(target_arch = "x86_64")]
     ///
-    /// Set the floating point state (FPU) of a vCPU using the `KVM_SET_FPU` ioct.
+    /// Set the floating point state (FPU) of a vCPU using the `KVM_SET_FPU` ioctl.
     ///
     fn set_fpu(&self, fpu: &FpuState) -> cpu::Result<()> {
         let fpu: kvm_bindings::kvm_fpu = (*fpu).clone().into();
