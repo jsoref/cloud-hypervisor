@@ -2094,19 +2094,19 @@ Deprecated features will be removed in a subsequent release and users should pla
 Many thanks to everyone who has contributed to our 0.14.0 release including
 some new faces.
 
-Bo Chen <chen.bo@intel.com>
-Henry Wang <Henry.Wang@arm.com>
-Iggy Jackson <iggy@theiggy.com>
-Jiachen Zhang <zhangjiachen.jaycee@bytedance.com>
-Michael Zhao <michael.zhao@arm.com>
-Muminul Islam <muislam@microsoft.com>
-Penny Zheng <Penny.Zheng@arm.com>
-Rob Bradford <robert.bradford@intel.com>
-Sebastien Boeuf <sebastien.boeuf@intel.com>
-Vineeth Pillai <viremana@linux.microsoft.com>
-Wei Liu <liuwe@microsoft.com>
-William Douglas <william.r.douglas@gmail.com>
-Zide Chen <zide.chen@intel.com>
+* Bo Chen <chen.bo@intel.com>
+* Henry Wang <Henry.Wang@arm.com>
+* Iggy Jackson <iggy@theiggy.com>
+* Jiachen Zhang <zhangjiachen.jaycee@bytedance.com>
+* Michael Zhao <michael.zhao@arm.com>
+* Muminul Islam <muislam@microsoft.com>
+* Penny Zheng <Penny.Zheng@arm.com>
+* Rob Bradford <robert.bradford@intel.com>
+* Sebastien Boeuf <sebastien.boeuf@intel.com>
+* Vineeth Pillai <viremana@linux.microsoft.com>
+* Wei Liu <liuwe@microsoft.com>
+* William Douglas <william.r.douglas@gmail.com>
+* Zide Chen <zide.chen@intel.com>
 
 # v0.13.0
 
