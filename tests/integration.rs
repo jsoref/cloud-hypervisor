@@ -10126,7 +10126,7 @@ mod live_migration {
     mod live_migration_sequential {
         use super::*;
 
-        // NUMA & baalloon live migration tests are large so run sequentially
+        // NUMA & balloon live migration tests are large so run sequentially
 
         #[test]
         fn test_live_migration_balloon() {
