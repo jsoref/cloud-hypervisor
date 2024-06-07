@@ -525,7 +525,7 @@ fn create_memory_node(
                 let memory_region_size: u64 = memory_region.size() as u64;
                 mem_reg_prop.push(memory_region_start_addr);
                 mem_reg_prop.push(memory_region_size);
-                // Set the node address the first non-zero regison address
+                // Set the node address the first non-zero region address
                 if node_memory_addr == 0 {
                     node_memory_addr = memory_region_start_addr;
                 }
