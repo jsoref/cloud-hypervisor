@@ -573,7 +573,7 @@ _Example_
 ### PCI bus
 
 Cloud Hypervisor supports guests with one or more PCI segments. The default PCI segment always
-has affinity to NUMA node 0. Be default, all other PCI segments have afffinity to NUMA node 0.
+has affinity to NUMA node 0. Be default, all other PCI segments have affinity to NUMA node 0.
 The user may configure the NUMA affinity for any additional PCI segments.
 
 _Example_
