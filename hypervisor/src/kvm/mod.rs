@@ -1986,7 +1986,7 @@ impl cpu::Vcpu for KvmVcpu {
     /// SREGS saves/restores a pending interrupt, similar to what
     /// VCPU_EVENTS also does.
     ///
-    /// GET_MSRS requires a pre-populated data structure to do something
+    /// GET_MSRS requires a prepopulated data structure to do something
     /// meaningful. For SET_MSRS it will then contain good data.
     ///
     /// # Example
