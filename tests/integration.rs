@@ -9061,7 +9061,7 @@ mod live_migration {
         dest_api_socket: &str,
         local: bool,
     ) -> bool {
-        // Start to receive migration from the destintion VM
+        // Start to receive migration from the destination VM
         let mut receive_migration = Command::new(clh_command("ch-remote"))
             .args([
                 &format!("--api-socket={dest_api_socket}"),
